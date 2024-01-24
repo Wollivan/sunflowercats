@@ -2,6 +2,17 @@ body {
   background-color: wheat;
   color: #333;
 }
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
 .cats {
   display: flex;
   flex-direction: column;
@@ -16,4 +27,18 @@ body {
 .cat h3,
 .cat p {
   margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+form button {
+  margin-top: 1rem;
+  background-color: tomato;
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  color: white;
 }
